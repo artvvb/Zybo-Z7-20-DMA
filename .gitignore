@@ -4,6 +4,7 @@
 # whitelist the necessary files and folders, this gets everything from inside them too
 !.gitignore
 !.gitmodules
+!project_info.tcl
 !README.md
 !hw_handoff/
 !proj/
@@ -14,27 +15,7 @@
 #Digilent Added ignore rules for Vivado projects
 
 # sdk exclusions
-sdk/.metadata
-sdk/**/*RemoteSystemsTempFiles
-sdk/**/*Debug/*
-sdk/**/*Release
-sdk/**/*webtalk
-sdk/.sdk
-sdk/*.log
-# ignore everything in the hw_platform
-sdk/*hw_platform*/*
-# except
-!sdk/*hw_platform*/*.hdf
-!sdk/*hw_platform*/.*project
-# ignore everything in the BSP
-sdk/*_bsp*/*
-# except
-!sdk/*_bsp*/system.mss
-!sdk/*_bsp*/Makefile
-!sdk/*_bsp*/.*project
-# include the relevant elf files
-!sdk/**/*Debug/*.elf
-!sdk/**/*Debug/*.elf.size
+!sdk/**
 
 repo/**
 # whitelist vivado-library if it exists
@@ -52,7 +33,8 @@ src/ip/*/**
 # Do not ignore anything in src/others
 !src/others/*
 # Do not ignore block diagram files
-!src/bd/**
+src/bd/**
+!src/bd/system.tcl
 
 
 # ignore everything in project folder
