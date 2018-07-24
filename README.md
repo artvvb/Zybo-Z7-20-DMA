@@ -25,7 +25,7 @@ Requirements:
 	
 Release Usage:
 
-1. Download and extract the release ZIP archive.
+1. Download and extract the most recent Zybo-Z7-20-DMA-<version>.zip archive from this repository's [releases page](https://github.com/artvvb/Zybo-Z7-20-DMA/releases).
 2. Open project in Vivado 2018.2 (<archive extracted location>/vivado_proj/Zybo-Z7-20-DMA.xpr).
 3. In the toolbar at the top of the Vivado window, select **File -> Export -> Export Hardware**.
 4. Set "Export to" field to "<Local to Project>" and check "Include bitstream" box then click "OK".
