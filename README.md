@@ -7,6 +7,7 @@ Introduction
 This project demonstrates a way to use the Audio Codec, DDR memory, and 3.5mm Audio Jacks included on the Zybo Z7-20 in order to record and play audio. Three of the four user push buttons can be used to record a 5 second snippet of audio from the microphone input (MIC IN) and line input (LINE IN) jacks, or to play a recorded snippet back out over the headphone output (HPH OUT) jack. The USB-UART bridge attached to the microUSB port is used to display status messages. The table below shows the functions mapped to each of the push buttons.
 
 | Button | Function            |
+| ------ | ------------------- |
 | BTN0   | N/A                 |
 | BTN1   | Record from MIC IN  |
 | BTN2   | Play on HPH OUT     |
