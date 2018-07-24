@@ -25,12 +25,12 @@ Requirements:
 	
 Release Usage:
 
-1. Download and extract the most recent Zybo-Z7-20-DMA-<version>.zip archive from this repository's [releases page](https://github.com/artvvb/Zybo-Z7-20-DMA/releases).
-2. Open project in Vivado 2018.2 (<archive extracted location>/vivado_proj/Zybo-Z7-20-DMA.xpr).
+1. Download and extract the most recent Zybo-Z7-20-DMA-\<version\>.zip archive from this repository's [releases page](https://github.com/artvvb/Zybo-Z7-20-DMA/releases).
+2. Open project in Vivado 2018.2 (\<archive extracted location\>/vivado_proj/Zybo-Z7-20-DMA.xpr).
 3. In the toolbar at the top of the Vivado window, select **File -> Export -> Export Hardware**.
-4. Set "Export to" field to "<Local to Project>" and check "Include bitstream" box then click "OK".
+4. Set "Export to" field to "\<Local to Project\>" and check "Include bitstream" box then click "OK".
 5. In the toolbar at the top of the Vivado window, select **File -> Launch SDK**.
-6. Set "Exported location" and "Workspace" fields to "<Local to Project>" then click "OK".
+6. Set "Exported location" and "Workspace" fields to "\<Local to Project\>" then click "OK".
 
 7. With SDK opened, wait for the hardware platform to be imported.
 8. In the toolbar at the top of the SDK window, select **File -> New -> Application Project**.
@@ -52,13 +52,13 @@ Release Usage:
 13. In the "Select an import wizard" pane of the Import wizard, expand "General" and select "File System". Then click **Next**.
 14. Fill out fields on the "File system" screen as in the table below. Most of the listed values will be the defaults, but are placed in the table for completeness.
 
-| Setting                                               | Value                                   |
-| ----------------------------------------------------- | --------------------------------------- |
-| From directory                                        | <archive extracted location>/sdk_appsrc |
-| Files to import pane: sdk_appsrc                      | checked box                             |
-| Into folder                                           | Zybo-Z7-20-DMA/src                      |
-| Options: Overwrite existing resources without warning | checked box                             |
-| Options: Create top-level folder                      | unchecked box                           |
+| Setting                                               | Value                                     |
+| ----------------------------------------------------- | ----------------------------------------- |
+| From directory                                        | \<archive extracted location\>/sdk_appsrc |
+| Files to import pane: sdk_appsrc                      | checked box                               |
+| Into folder                                           | Zybo-Z7-20-DMA/src                        |
+| Options: Overwrite existing resources without warning | checked box                               |
+| Options: Create top-level folder                      | unchecked box                             |
 
 15. Click **Finish**.
 <!--- Note for maintainers: This project does not require any additional application or bsp configuration. If this changes, please add the required steps to manually add them here. --->
