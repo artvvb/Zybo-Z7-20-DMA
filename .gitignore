@@ -19,7 +19,6 @@
 proj/**
 
 # ip repository
-
 repo/**
 !repo/vivado-library
 repo/vivado-library/**
@@ -47,7 +46,7 @@ src/ip/**
 src/other/**
 !src/other/**
 
-# sdk workspace: edit this section to provide the correct names for APPLICATION, BSP, and HW_PLATFORM
+# sdk application sources
 sdk/**
 !sdk/appsrc
 !sdk/appsrc/**
